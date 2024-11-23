@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:columnCount="3"
+    app:rowCount="3"
+    android:background="#FFFFFF"> <!-- Default white background -->
+
+    <!-- Item 1 (Purple) -->
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#800080"
+        android:padding="32dp"
+        android:text="Item 1"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 2 (Teal) -->
+    <TextView
+        android:id="@+id/item2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#008080"
+        android:padding="32dp"
+        android:text="Item 2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 3 (Yellow) -->
+    <TextView
+        android:id="@+id/item3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFCC00"
+        android:padding="32dp"
+        android:text="Item 3"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 4 (Orange) -->
+    <TextView
+        android:id="@+id/item4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FF6600"
+        android:padding="32dp"
+        android:text="Item 4"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 5 (Blue) -->
+    <TextView
+        android:id="@+id/item5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#0033CC"
+        android:padding="32dp"
+        android:text="Item 5"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 6 (Red) -->
+    <TextView
+        android:id="@+id/item6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FF0000"
+        android:padding="32dp"
+        android:text="Item 6"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 7 (Green) -->
+    <TextView
+        android:id="@+id/item7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00CC00"
+        android:padding="32dp"
+        android:text="Item 7"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 8 (Cyan) -->
+    <TextView
+        android:id="@+id/item8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00FFFF"
+        android:padding="32dp"
+        android:text="Item 8"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+    <!-- Item 9 (Magenta) -->
+    <TextView
+        android:id="@+id/item9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FF00FF"
+        android:padding="32dp"
+        android:text="Item 9"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1" />
+
+</androidx.gridlayout.widget.GridLayout>

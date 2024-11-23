@@ -1,0 +1,17 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Purple color palette -->
+    <color name="purple_500">#800080</color> <!-- Purple -->
+    <color name="purple_700">#6A006A</color> <!-- Darker Purple (adjust if needed) -->
+
+    <!-- Other colors for the app -->
+    <color name="teal_500">#008080</color> <!-- Teal -->
+    <color name="yellow_500">#FFCC00</color> <!-- Yellow -->
+    <color name="orange_500">#FF6600</color> <!-- Orange -->
+    <color name="blue_500">#0033CC</color> <!-- Blue -->
+    <color name="red_500">#FF0000</color> <!-- Red -->
+    <color name="green_500">#00CC00</color> <!-- Green -->
+    <color name="cyan_500">#00FFFF</color> <!-- Cyan -->
+    <color name="magenta_500">#FF00FF</color> <!-- Magenta -->
+    <!-- You can add more colors as needed -->
+</resources>
